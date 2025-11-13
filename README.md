@@ -24,7 +24,7 @@ A **lightweight** TypeScript library for managing hooks.
   - [`HooksCore`](#hookscore)
   - [`ObjectHooksBase`](#objecthooksbase)
 - [Contributing](#contributing)
-- [Code of Conduct](code-of-conduct)
+- [Code of Conduct](#code-of-conduct)
 - [Git](#git)
   - [Commit](#commit)
   - [Versioning](#versioning)
