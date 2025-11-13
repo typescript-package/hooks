@@ -108,7 +108,7 @@ obj.onPropertyChange((key, value, oldValue) => {
 obj.value.count = 1; // Triggers onPropertyChange and onChange
 ```
 
-[Source](https://github.com/typescript-package/hooks/blob/main/src/lib/object-hooks-base.ts)
+[Source](https://github.com/typescript-package/hooks/blob/main/src/lib/object-hooks-base.abstract.ts)
 
 ## Contributing
 
