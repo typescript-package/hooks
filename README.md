@@ -54,7 +54,7 @@ import {
 The core abstraction class for hooks functionality.
 
 ```typescript
-import { HooksCore } from '@typescript-package/example';
+import { HooksCore } from '@typescript-package/hooks';
 ```
 
 [Source](https://github.com/typescript-package/hooks/blob/main/src/lib/hooks-core.ts)
