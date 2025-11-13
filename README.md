@@ -20,16 +20,22 @@ A **lightweight** TypeScript library for managing hooks.
 
 - [Installation](#installation)
 - [Api](#api)
-  - [`HooksBase`](#hooks)
-  - [`HooksCore`](#hooks)
-  - [`ObjectHooksBase`](#hooks)
-  - [`ObjectHooks`](#hooks)
+  - [`HooksBase`](#hooksbase)
+  - [`HooksCore`](#hookscore)
+  - [`ObjectHooksBase`](#objecthooksbase)
 - [Contributing](#contributing)
 - [Code of Conduct](code-of-conduct)
 - [Git](#git)
   - [Commit](#commit)
   - [Versioning](#versioning)
 - [License](#license)
+
+## 📦 Related Packages
+
+| Package                   | Description                                       |
+|---------------------------|---------------------------------------------------|
+| [`@typedly/callback`](https://github.com/typedly/callback) | A **TypeScript** type definitions package for managing hooks. |
+| [`@typedly/hooks`](https://github.com/typedly/hooks) | A **TypeScript** type definitions package for asynchronous and synchronous callback functions of various types. |
 
 ## Installation
 
@@ -44,8 +50,8 @@ import {
    // Abstract.
    // - Core.
    HooksCore,
-   HooksBase,
    // - Base.
+   HooksBase,
    ObjectHooksBase,
 } from '@typescript-package/hooks';
 ```
