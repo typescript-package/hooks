@@ -64,17 +64,17 @@ import { HooksCore } from '@typescript-package/hooks';
 Base abstraction class for hooks functionality.
 
 ```typescript
-import { HooksBase } from '@typescript-package/example';
+import { HooksBase } from '@typescript-package/hooks';
 ```
 
-[Source](https://github.com/typescript-package/hooks/blob/main/src/lib/hooks-base.ts)
+[Source](https://github.com/typescript-package/hooks/blob/main/src/lib/hooks-base.abstract.ts)
 
 ## `ObjectHooksBase`
 
 The base abstraction class for object hooks functionality.
 
 ```typescript
-import { ObjectHooksBase } from '@typescript-package/example';
+import { ObjectHooksBase } from '@typescript-package/hooks';
 
 class ReactiveObject<T extends object> extends ObjectHooksBase<T> {
   private data: T;
@@ -199,7 +199,6 @@ MIT © typescript-package ([license][typescript-package-license])
 - **[@typescript-package/state](https://github.com/typescript-package/state)**: Simple state management for different types in **TypeScript**.
 - **[@typescript-package/type](https://github.com/typescript-package/type)**: Utility types to enhance and simplify **TypeScript** development.
 - **[@typescript-package/wrapper](https://github.com/typescript-package/wrapper)**: A **lightweight TypeScript** library to wrap the text with the opening and closing chars.
-
 
 <!-- This package: typescript-package  -->
   <!-- GitHub: badges -->
