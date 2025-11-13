@@ -204,7 +204,7 @@ MIT © typescript-package ([license][typescript-package-license])
 <!-- This package: typescript-package  -->
   <!-- GitHub: badges -->
   [typescript-package-badge-issues]: https://img.shields.io/github/issues/typescript-package/hooks
-  [isscript-package-badge-forks]: https://img.shields.io/github/forks/typescript-package/hooks
+  [typescript-package-badge-forks]: https://img.shields.io/github/forks/typescript-package/hooks
   [typescript-package-badge-stars]: https://img.shields.io/github/stars/typescript-package/hooks
   [typescript-package-badge-license]: https://img.shields.io/github/license/typescript-package/hooks
   <!-- GitHub: badges links -->
