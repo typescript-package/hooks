@@ -108,7 +108,7 @@ export abstract class ObjectHooksBase<T extends object, Payload = unknown>
    * @param {Payload} [payload] Optional payload.
    */
   protected triggerOnPropertyChange<K extends keyof T>(key: K, value: T[K], previousValue: T[K], payload?: Payload): void {
-    this.onPropertyChangeCallback?.(key, value, previousValue, payload), this;
+    this.onPropertyChangeCallback?.(key, value, previousValue, payload);
   }
 
   /**
