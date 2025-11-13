@@ -1,5 +1,5 @@
 import { OnChangeCallback, OnDestroyCallback, OnPropertyChangeCallback, OnSetCallback, OnSetPropertyCallback } from "@typedly/callback";
-import { HooksBase } from "./hooks-base.class";
+import { HooksBase } from "./hooks-base.abstract";
 
 
 
