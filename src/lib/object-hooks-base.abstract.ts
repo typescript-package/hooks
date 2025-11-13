@@ -90,7 +90,7 @@ export abstract class ObjectHooksBase<T extends object, Payload = unknown>
   }
 
   /**
-   * @description  Sets the `onSetProperty` callback function.
+   * @description Sets the `onSetProperty` callback function.
    * @public
    * @param {?OnSetPropertyCallback<T, Payload>} [callbackfn] The callback function to be invoked on set property.
    * @returns {this} The `this` instance for chaining.
