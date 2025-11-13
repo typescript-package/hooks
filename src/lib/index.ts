@@ -1,4 +1,4 @@
-export { HooksBase } from './hooks-base.class';
-export { ObjectHooksBase } from './object-hooks-base.class';
-export { ObjectHooks } from './object-hooks.class';
+// Abstract.
+export { HooksBase } from './hooks-base.abstract';
 export { HooksCore } from './hooks-core.abstract';
+export { ObjectHooksBase } from './object-hooks-base.abstract';

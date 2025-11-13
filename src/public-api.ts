@@ -3,8 +3,8 @@
  */
 
 export {
+  // Abstract.
   HooksBase,
   HooksCore,
-  ObjectHooks,
-  ObjectHooksBase
+  ObjectHooksBase,
 } from './lib';
