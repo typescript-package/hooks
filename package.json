@@ -1,0 +1,53 @@
+{
+  "name": "@typescript-package/hooks",
+  "version": "1.0.0",
+  "author": "wwwdev.io <dev@wwwdev.io>",
+  "description": "A lightweight TypeScript library for hooks management.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3"
+  },
+  "peerDependencies": {
+    "@typedly/callback": "^2.0.0",
+    "@typedly/hooks": "^1.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run pkg && npm run clean",
+    "pkg": "npm pkg delete dependencies",
+    "clean": "npm pkg delete scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typescript-package/hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typescript-package/hooks/issues"
+  },
+  "keywords": [
+    "@typescript-package",
+    "@typescript-package/hooks",
+    "Hooks"
+  ],
+  "funding": [
+    {
+      "type": "stripe",
+      "url": "https://donate.stripe.com/dR614hfDZcJE3wAcMM"
+    },
+    {
+      "type": "individual",
+      "url": "https://checkout.revolut.com/pay/048b10a3-0e10-42c8-a917-e3e9cb4c8e29"
+    }
+  ],
+  "sideEffects": false
+}
